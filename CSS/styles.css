@@ -1,6 +1,16 @@
 body {
 
 }
+
 h1,h2,p {
   text-align: center;
+}
+
+.navbar {
+  background-color: #8bd9c2;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  height: 2rem;
 }
