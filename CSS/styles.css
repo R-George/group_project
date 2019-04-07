@@ -1,7 +1,8 @@
-body {
+body#home {
   background-image: url("../mainbackground.jpg");
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #111;
   height: 100%;
 }
@@ -10,6 +11,7 @@ h1,h2,p {
   text-align: center;
 }
 
+/* nav bar */
 .navbar {
   background-color: #8bd9c2;
   text-transform: uppercase;
@@ -19,6 +21,7 @@ h1,h2,p {
   height: 2rem;
 }
 
+/* title */
 .title_bubble {
   display: table-cell;
   background: #8bd9c2;
@@ -31,4 +34,21 @@ h1,h2,p {
   border-style: solid;
   border-color: white;
   border-width: medium;
+}
+
+/* about.html headings and paragraphs */
+.heading {
+  color: #8bd9c2;
+  text-transform: uppercase;
+  font-family: Coustard;
+}
+
+.padding {
+  padding: 2rem 0;
+}
+
+.text {
+  text-align: left;
+  margin: 0.3rem 0.5rem;
+  padding: 0.3rem;
 }
