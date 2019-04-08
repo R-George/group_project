@@ -26,7 +26,7 @@ h2 {
   height: 2rem;
 }
 
-/* title */
+/* home page circle for title */
 .title_bubble {
   display: table-cell;
   background: #8bd9c2;
@@ -67,5 +67,55 @@ h2 {
 }
 
 .round {
+  border-radius: 50%;
+}
+
+/* CSS for the flip card effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+
+/* This positions the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateX(180deg);
+}
+
+.hidden_image {
   border-radius: 50%;
 }
