@@ -20,10 +20,27 @@ h2 {
 .navbar {
   background-color: #8bd9c2;
   text-transform: uppercase;
+  padding: 10px 16px;
+  z-index: 999;
 }
 
 .navbar-brand img {
   height: 2rem;
+}
+
+/* fixed header */
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 
 /* home page circle for title */
