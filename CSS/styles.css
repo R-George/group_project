@@ -9,6 +9,7 @@ body#home {
 
 h1,h2,p {
   text-align: center;
+  vertical-align: middle;
 }
 
 /* nav bar */
@@ -51,4 +52,16 @@ h1,h2,p {
   text-align: left;
   margin: 0.3rem 0.5rem;
   padding: 0.3rem;
+  vertical-align: center;
+}
+
+/* pictures on about page */
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round {
+  border-radius: 50%;
 }
