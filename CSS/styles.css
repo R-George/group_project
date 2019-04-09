@@ -17,7 +17,7 @@ h1,h2,p {
 }
 
 h2 {
-  font-family: Coustard;
+  font-family: 'Coustard', serif;
 }
 
 /* nav bar */
@@ -65,12 +65,26 @@ h2 {
 /* about.html headings and paragraphs */
 .heading {
   color: #8bd9c2;
-  text-transform: uppercase;
-  font-family: Coustard;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3em;
 }
 
 .padding {
   padding: 2rem 0;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Coustard', serif;
+  font-size: 2em;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Coustard', serif;
+  font-size: 1.5em;
+  margin: 0.3rem 0.5rem;
+  padding: 0.3rem;
 }
 
 .text {
