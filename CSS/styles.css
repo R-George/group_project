@@ -62,6 +62,25 @@ h2 {
   border-width: medium;
 }
 
+/* home page sentences */
+ul {
+  list-style: none;
+  display: flex;
+
+}
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
+
+div.introsentences {
+  font-family: 'Coustard', serif;
+}
+
 /* about.html headings and paragraphs */
 .heading {
   color: #8bd9c2;
