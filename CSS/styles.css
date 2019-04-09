@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body#home {
   background-image: url("../bricks.jpg");
   background-position: center;
@@ -135,4 +139,20 @@ h2 {
 
 .hidden_image {
   border-radius: 50%;
+}
+
+/* Go to top button */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #8bd9c2;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
 }
