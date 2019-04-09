@@ -12,13 +12,23 @@
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<<<<<<< HEAD
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Coustard" rel="stylesheet">
+=======
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+>>>>>>> da1ad9e79a8a22e1d9aa69094ea5d60b3e8cff71
   <title>Commit to Git | A How to Guide</title>
 </head>
 
 <body>
+
+  <div>
+    <img src="banner_image.jpg" alt="Finger on screen banner photo" width=100%>
+  </div>
+
   <!-- Nav Starts -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light" id="Navbar">
     <a class="navbar-brand" href="index.html"><img src="logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,34 +43,107 @@
   </nav>
   <!-- Nav Ends -->
 
+  <div class="content">
+
   <!-- First Date Starts -->
-  <div id="firstdate">
+  <div id="firstdate" class="container-fluid">
       <h1 class="heading padding">First Date</h1>
-      <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
-      <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
+      <div class="row">
+        <div class="frame col-9">
+          <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
+        </div>
+        <div class="frame col-3 flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="holding_hands.jpg" alt="Holding hands" class="round" width=95%>
+                  <!-- first date picture holding hands -->
+              </div>
+              <div class="flip-card-back frame">
+                <img src="mistake_quote.jpg" alt="The most valuable thing you can do is make a mistake quote" class="hidden_image" width=95%>
+                  <!-- hidden picture 1 -->
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="frame col-3 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="heart_coffee.jpeg" alt="Cup of coffee" class="round" width=95%>
+                <!-- first date picture coffee -->
+            </div>
+            <div class="flip-card-back frame">
+              <img src="failure_quote.jpg" alt="I cannot accept not trying quote" class="hidden_image" width=95%>
+                <!-- hidden picture 2 -->
+            </div>
+          </div>
+        </div>
+        <div class="frame col-9">
+          <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
+        </div>
+      </div>
   </div>
   <!-- First Date Ends -->
 
+  </br>
+  </br>
+  <hr>
+
   <!-- Push and Pull Starts -->
-  <div id="pushandpull">
+  <div id="pushandpull" class="container-fluid">
     <h1 class="heading padding">Push and Pull</h1>
-    <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
-    <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
+    <h3>Sick and tired of all this push and pull? You're not alone!</h3>
+    <h4>Git Push</h4>
+    <p class="text"><b>Short Answer:</b> <i>The opposite of Pull!</i></p>
+    <p class="text">Add the code you’ve written on your local machine to the GitHub repository that you share with others working on the same project. This will make these changes visible and accessible to anyone who is a contributor on that repository.</p>
+    <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pushed up to the repository. Click again and you will have added all the changes you made locally to the main repository – your colleagues can then view and pull these changes onto their own machines.</p>
+    <h4>Git Pull</h4>
+    <p class="text"><b>Short Answer:</b> <i>The opposite of Push!</i></p>
+    <p class="text">This feature enables you to update your local machine with any changes that other contributors to the repository have made to the project. Pulling the content then enables you to view and edit the code locally, if you wish.</p>
+    <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pulled down from the repository. Click again and you will have all the changes made by others now on your local machine.</p>
   </div>
   <!-- Push and Pull Ends -->
 
+  </br>
+  </br>
+  <hr>
+
   <!-- Forking Starts -->
-  <div id="forking">
+  <div id="forking" class="container-fluid">
     <h1 class="heading padding">Forking</h1>
     <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
     <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
   </div>
   <!-- Forking Ends -->
 
+  </br>
+  </br>
+
+  </div>
+
+  <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- JavaScript for fixed navbar -->
+  <script>
+
+      var navbar = document.getElementById("Navbar");
+      var navbarY = navbar.offsetTop;
+
+      function scrollFunction() {
+          if (window.pageYOffset > navbarY) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+      }
+
+      window.onscroll = scrollFunction;
+
+  </script>
 
 </body>
 </html>

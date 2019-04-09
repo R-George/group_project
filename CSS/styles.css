@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body#home {
   background-image: url("../bricks.jpg");
   background-position: center;
@@ -9,23 +13,41 @@ body#home {
 
 h1,h2,p {
   text-align: center;
+  vertical-align: middle;
 }
 
 h2 {
-  font-family: Coustard;
+  font-family: 'Coustard', serif;
 }
 
 /* nav bar */
 .navbar {
   background-color: #8bd9c2;
   text-transform: uppercase;
+  padding: 10px 16px;
+  z-index: 999;
 }
 
 .navbar-brand img {
   height: 2rem;
 }
 
-/* title */
+/* fixed header */
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* home page circle for title */
 .title_bubble {
   display: table-cell;
   background: #8bd9c2;
@@ -43,16 +65,108 @@ h2 {
 /* about.html headings and paragraphs */
 .heading {
   color: #8bd9c2;
-  text-transform: uppercase;
-  font-family: Coustard;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3em;
 }
 
 .padding {
   padding: 2rem 0;
 }
 
+h3 {
+  text-align: center;
+  font-family: 'Coustard', serif;
+  font-size: 2em;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Coustard', serif;
+  font-size: 1.5em;
+  margin: 0.3rem 0.5rem;
+  padding: 0.3rem;
+}
+
 .text {
   text-align: left;
   margin: 0.3rem 0.5rem;
   padding: 0.3rem;
+  vertical-align: center;
+}
+
+/* pictures on about page */
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+/* CSS for the flip card effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Gives the 3D effect */
+}
+
+/* This positions the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: transparent;
+  color: black;
+  transform: rotateX(180deg);
+}
+
+.hidden_image {
+  border-radius: 50%;
+}
+
+/* Go to top button */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #8bd9c2;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
 }
