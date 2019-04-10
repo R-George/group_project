@@ -19,7 +19,8 @@
   <title>Commit to Git | A How to Guide</title>
 </head>
 
-<body>
+<body id="about">
+
 
   <div>
     <img src="banner_image.jpg" alt="Finger on screen banner photo" width=100%>
@@ -41,64 +42,85 @@
   </nav>
   <!-- Nav Ends -->
 
-  <div class="content">
+  <div class="content container">
 
   <!-- First Date Starts -->
   <div id="firstdate" class="container-fluid">
+    </br>
       <h1 class="heading padding">First Date</h1>
       <div class="row">
         <div class="frame col-9">
           <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
         </div>
-        <div class="frame col-3 flip-card">
-          <div class="flip-card-inner">
-              <div class="flip-card-front">
+        <div class="frame col-3">
                 <img src="holding_hands.jpg" alt="Holding hands" class="round" width=95%>
                   <!-- first date picture holding hands -->
-              </div>
-              <div class="flip-card-back frame">
-                <img src="mistake_quote.jpg" alt="The most valuable thing you can do is make a mistake quote" class="hidden_image" width=95%>
-                  <!-- hidden picture 1 -->
-              </div>
-            </div>
         </div>
       </div>
       <div class="row">
-        <div class="frame col-3 flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="heart_coffee.jpeg" alt="Cup of coffee" class="round" width=95%>
+        <div class="frame col-3">
+            <img src="heart_coffee.jpeg" alt="Cup of coffee" class="round" width=95%>
                 <!-- first date picture coffee -->
-            </div>
-            <div class="flip-card-back frame">
-              <img src="failure_quote.jpg" alt="I cannot accept not trying quote" class="hidden_image" width=95%>
-                <!-- hidden picture 2 -->
-            </div>
-          </div>
         </div>
         <div class="frame col-9">
           <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
         </div>
       </div>
-  </div>
+    </div>
   <!-- First Date Ends -->
 
   </br>
-  </br>
-  <hr>
+
 
   <!-- Push and Pull Starts -->
   <div id="pushandpull" class="container-fluid">
+    </br>
+    <hr>
     <h1 class="heading padding">Push and Pull</h1>
     <h3>Sick and tired of all this push and pull? You're not alone!</h3>
-    <h4>Git Push</h4>
-    <p class="text"><b>Short Answer:</b> <i>The opposite of Pull!</i></p>
-    <p class="text">Add the code you’ve written on your local machine to the GitHub repository that you share with others working on the same project. This will make these changes visible and accessible to anyone who is a contributor on that repository.</p>
-    <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pushed up to the repository. Click again and you will have added all the changes you made locally to the main repository – your colleagues can then view and pull these changes onto their own machines.</p>
-    <h4>Git Pull</h4>
-    <p class="text"><b>Short Answer:</b> <i>The opposite of Push!</i></p>
-    <p class="text">This feature enables you to update your local machine with any changes that other contributors to the repository have made to the project. Pulling the content then enables you to view and edit the code locally, if you wish.</p>
-    <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pulled down from the repository. Click again and you will have all the changes made by others now on your local machine.</p>
+  </br>
+    <div class="row">
+      <div class="col-6">
+        <h4  style="text-align: center;">Git Push</h4>
+        <p class="text"><b>Short Answer:</b> <i>The opposite of Pull!</i></p>
+
+        <div class="frame flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="push_image.png" alt="Push door sign" width="50%">
+                  <!-- push door picture -->
+              </div>
+              <div class="flip-card-back frame">
+                <div>
+                <p class="text">Add the code you’ve written on your local machine to the GitHub repository that you share with others working on the same project. This will make these changes visible and accessible to anyone who is a contributor on that repository.</p>
+                <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pushed up to the repository. Click again and you will have added all the changes you made locally to the main repository – your colleagues can then view and pull these changes onto their own machines.</p>
+                </div>
+                <!-- words on back of push door sign -->
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-6">
+        <h4 style="text-align: center;">Git Pull</h4>
+        <p class="text"><b>Short Answer:</b> <i>The opposite of Push!</i></p>
+
+        <div class="frame flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="pull_image.png" alt="Pull door sign" width="50%">
+                  <!-- pull door picture -->
+              </div>
+              <div class="flip-card-back frame">
+                <div>
+                  <p class="text">This feature enables you to update your local machine with any changes that other contributors to the repository have made to the project. Pulling the content then enables you to view and edit the code locally, if you wish.</p>
+                  <p class="text">On GitHub Desktop, click the <b>Fetch Origin</b> button – this will then indicate if there are changes that are ready to be pulled down from the repository. Click again and you will have all the changes made by others now on your local machine.</p>
+                </div>
+                <!-- words on back of pull door sign -->
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
   </div>
   <!-- Push and Pull Ends -->
 
@@ -109,7 +131,9 @@
   <!-- Forking Starts -->
   <div id="forking" class="container-fluid">
     <h1 class="heading padding">Forking</h1>
-    <p class="text">Vestibulum quis dolor eros. Ut sed sem et tellus semper accumsan eu et felis. Etiam dignissim libero quis lectus aliquet, eu fermentum arcu suscipit. Nunc vestibulum neque id mauris lacinia convallis. Proin pellentesque sem sagittis arcu vulputate bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vulputate pharetra augue, sed placerat urna laoreet eget. Cras hendrerit semper sem ut dictum. Sed eu auctor orci.</p>
+    <h3>Time to get a bit experimental...</h3>
+  </br>
+    <p class="text">A fork is a copy of a repository. Sometimes you want to try something new; forking a repository allows you to freely experiment with changes without affecting the original project.</p>
     <p class="text">Vivamus placerat sem ac risus pharetra, id viverra ex tincidunt. Fusce interdum, eros in aliquet lobortis, nisl lorem auctor leo, eu pretium velit est sit amet nibh. Pellentesque luctus dui feugiat mattis rhoncus. Sed nec tempor nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam non mattis purus, ullamcorper finibus est. Pellentesque a pretium sapien, ut cursus quam.</p>
   </div>
   <!-- Forking Ends -->
