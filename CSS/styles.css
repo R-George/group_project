@@ -30,6 +30,7 @@ h2 {
   text-transform: uppercase;
   padding: 10px 16px;
   z-index: 999;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .navbar-brand img {
